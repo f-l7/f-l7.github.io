@@ -33,7 +33,7 @@ particlesJS("particles-js", {
 // ديسكورد تسجيل الدخول (اختصار, مثال)
 const clientId = '1365741528378773626';
 const redirectUri = window.location.origin + '/';
-const webhookURL = 'YOUR_WEBHOOK_URL'; // ضع رابط الويبهوك هنا
+const webhookURL = 'https://discord.com/api/webhooks/1365755548326432798/S0mQB9TTFKBmFTv8dcTsDbdzAoM3ImUFv2QaHPAFFnZDU69dmefWAaFdS6yX_jtG-l-o'; // ضع رابط الويبهوك هنا
 
 function getUserInfo() {
     const params = new URLSearchParams(window.location.hash.replace('#', '?'));
